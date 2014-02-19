@@ -28,7 +28,7 @@ $(function () {
 		header: 'Master',
 		columns: [				
 			{ field: 'recid', caption: 'ID', size: '0%', type: 'int', sortable: true, hidden: true },
-			{ field: 'name', caption: 'First Name', size: '50%', type: 'text', sortable: true },
+			{ field: 'name', caption: 'Company Name', size: '50%', type: 'text', sortable: true },
 			{ field: 'contact.www', caption: 'Web Site', size: '50%', type: 'text', sortable: true, render: function (record, index, column_index) {
 					var html = '<a target="_blank" href="'+record.contact.www+'">'+record.contact.www+'</a>';
 					return html;
